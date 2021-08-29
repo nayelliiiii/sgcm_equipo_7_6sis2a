@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    
+     <title>HospitalG</title>
+
+</head>
+    <body data-spy="scroll" data-target=".fixed-top" BACKGROUND="Imagenes/WhatsApp Image 2021-08-04 at 21.20.43.jpeg">
+
+
+<header>
+
+        <div class="Menu">
+            <ul class="Moviemiento">
+                
+                        <a href="Index.html">Inicio </a>
+                             
+                    <a href="NuestrosDoctores.html">Buscar Doctores</a>               
+                            
+                    <a href="Cita.html">Cita</a>                
+               
+                    <a href="HistorialC.html">Consultar Historial clinico</a>               
+                
+                    <a href="IniciarSesion.html">Iniciar Sesion</a>
+             
+            </ul>
+        </div>
+      </header>
+               
+                <form name="formulario" method="post" action="src/main/java/RegistrarPaciente">
+                    <label>NSS:</label><input type="text" name="folio" >
+                    
+                    <br>
+                    
+                    <label>Nombre:</label><input type="text" name="nombre" >
+                    
+                    <br>
+                    
+                    <label>Apellido Paterno:</label><input type="text" name="appat" >
+                    
+                    <br>
+                    
+                    <label>Apellido Materno:</label><input type="text" name="apmat" >
+                    
+                    <br>
+                    
+                    <label>Telefono:</label><input type="tel" name="tele" >
+                    
+                    <br>
+                    
+                    <label>Fecha de Nacimiento:</label><input type="date" name="fech" >
+                    
+                    <br>
+                    
+                    <label>CURP:</label><input type="text" name="curp" >
+                    
+                    <br>
+                    
+                    <label>Fecha de Registro:</label><input type="date" name="fregis" >
+                    
+                    <br>
+                    
+                    <label>Alergia:</label>
+                    <select name="alerg">
+                    <option></option>
+                    <option>Animales</option>
+                    <option>Polvo</option>
+                    <option>Sol</option>
+                    <option>Trabajo</option>
+                    </select>
+                     
+                    <br>
+                    
+                    <label>Tipo de Sangre:</label>
+                    <select name="tsangre">
+                    <option></option>
+                     <option>O positivo</option>
+                    <option>O negativo</option>
+                    </select>
+                    
+                    <br>
+                    
+                    <label>Estado Civil:</label>
+                    <select name="estadoc">
+                    <option></option>
+                    <option>Casado</option>
+                    <option>Soltero</option>
+                    <option>Divorciado</option>
+                    </select>
+                    
+                    <br>
+                    
+                    <label>Ocupacion:</label>
+                    <select name="ocupa">
+                    <option></option>
+                    <option>Estudiante</option>
+                    <option>Trabajador</option>
+                    </select>
+                    
+                    <br>
+                    
+                    <label>Folio alta:</label><input type="text" name="alta">
+                    
+                    <br>
+                   
+                    <label>Genero:</label>
+                    <select name="gene">
+                    <option></option>
+                    <option>Femenino</option>
+                    <option>Masculino</option>
+                    <option>Otros</option>
+                    </select>
+                    
+                    <br>
+                   
+                    <label>Correo:</label><input type="email" name="use" >
+                    
+                    <br>
+                    
+                    <label>Contrasena:</label><input type="password" name="pass" >
+                    
+                    <br>
+                    
+                    <label>Direccion:</label><input type="text" name="dic" placeholder="Solo Calle">
+                    
+                    <br>
+
+                    <input type="submit" value="Registrar Usuario" >
+                    
+                </form>
+
+</body>
+</html>
